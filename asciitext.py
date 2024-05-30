@@ -4,7 +4,7 @@ import pyfiglet
 import os
 import platform
 def homescreen():
-    title = pyfiglet.figlet_format("Ascii Text", font="slant")
+    title = pyfiglet.figlet_format("Pyfiglet maker", font="slant")
     print(title)
 def searchfonts():
     test = pyfiglet.FigletFont.getFonts()
